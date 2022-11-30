@@ -1,0 +1,258 @@
+body
+{
+    font-family: "Montserrat-Black";
+}
+h1,h2,h3,h4,h5
+{
+    font-family: "montserrat-bold";
+}
+
+
+.title  
+{
+    background-color: #8f6058;
+    color: #FEFCF3;
+    padding: 3% 10%;
+}
+
+/* navbar styling */
+nav
+{
+    margin-bottom: 3em;
+}
+.navbar-brand
+{
+    font-family: "ubuntu";
+    font-size: 2em;
+    color: #FEFCF3;
+    font-weight: bold;
+}
+.nav-item
+{
+    padding: 0 18px;
+}
+.nav-link
+{
+    font-family: "Montserrat-light ";
+    font-size: 1.16em;
+    color: #FEFCF3;
+}
+
+/*start of title section*/
+.title-text
+{
+    margin: auto;
+    margin-left: 0;
+}
+.title-text h1
+{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.title-img
+{
+    display: block;
+    margin-left: auto;
+    width: 60%;
+    transform: rotate(10deg);
+}
+@media screen and (max-width:992px) {
+    .title-img
+    {
+        display: block;
+        margin-left: auto;
+        width: 60%;
+        margin-right: auto;
+        transform: none;
+    }
+    .title-text
+    {
+        text-align: center;
+        margin-bottom: 20px;
+        border-top: #FEFCF3 1px solid;
+    }
+    
+}
+
+/*title download-button */
+
+.download-button
+{
+    margin: 5% 3% 5% 0;
+}
+
+/* Start of the Features */
+.features
+{
+    margin: 80px 20px;
+    background-color: #FEFCF3;
+}
+.features-text
+{
+    padding: 0 15px;
+    margin: 0 15px;
+}
+.features-text:hover
+{
+    box-shadow: 1px 1px 2px 1px  #DBA39A ;
+    border-radius: 30px;
+}
+
+.features i
+{
+    font-size: 3em;
+    color: #DBA39A;
+}
+.features i:hover
+{
+    color: #8f6058;
+}
+.features h5
+{
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.features p
+{
+    font-size: 1em;
+    color: rgb(134, 127, 127);
+    text-align: justify;
+}
+
+/*testimonials*/
+.testimonials
+{
+    background-color:#8f6058;
+    margin: 50px 0;
+}
+.test
+{
+    padding: 10px 10px;
+}
+.carousel-item
+{
+    padding: 7% 18%;
+}
+.test-text
+{
+    text-align: justify;
+    color: #FEFCF3;
+}
+.test-text h1
+{
+    font-size: 2em;
+    font-weight: bold;
+}
+.test-text p
+{
+    font-size: 1em;
+}
+
+
+/*subscription*/
+
+.sub-desc
+{
+    text-align: center;
+    padding: 3% 0;
+    color: #8f6058;
+}
+.sub-desc h1
+{
+    font-size: 4em;
+    font-weight: bold;
+}
+.sub-desc p
+{
+    font-size: 1.3em;
+    padding-top: 1em ;
+}
+
+/*subscription cards*/
+.card
+{
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 3px 2px;
+}
+.card h4
+{
+    color: #8f6058;
+    text-align: center;
+    font-size: 1.8em;
+}
+.plus a
+{
+    background-color: #8f6058;
+    color: #FEFCF3;
+}
+.gold
+{
+    border: #8f6058 1px solid;
+}
+.gold  .card-header
+{
+    background-color: #8f6058;
+}
+.gold  .card-header h4
+{
+    color: #FEFCF3;
+}
+.card a
+{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.card-body h3
+{
+    text-align: center;
+    padding: 2px;
+}
+.card-body span
+{
+
+    font-weight: bold;
+}
+.card:hover
+{
+    box-shadow: 1px 1px 2px 1px  #DBA39A ;
+}
+
+@media screen and (min-width:1000px) {
+    .card:hover
+    {
+        width: 300px;
+    }
+}
+
+/*Footer section*/
+footer
+{
+    margin-top: 100px;
+}
+.download-sec
+{
+    background-color: #8f6058;
+    text-align: center;
+}
+.download-sec h1
+{
+    font-size: 3.5em;
+    color: #FEFCF3;
+    padding: 5% 0 0;
+}
+.footer-icons
+{
+    padding: 10px;
+}
+.footer-link
+{
+    text-align: center;
+    margin: 20px 0;
+}
+.footer-link p
+{
+    padding: 10px 0;
+}
